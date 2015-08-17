@@ -38,4 +38,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
   };
 
+  app.getFeestje1 = function(){
+    app.gotoFeest = "Antwerpen";
+  };
+
+  app.getFeestje2 = function(){
+    app.gotoFeest = "Hasselt";
+  };
+
 })(document);
